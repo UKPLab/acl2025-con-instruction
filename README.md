@@ -67,7 +67,7 @@ $ cd qwen-audio
 
 ```
 $ cd qwenvl
-$ python  qwenv_attack.py 
+$ python  qwenvl_attack.py 
 ```
 
 ### Attack InternVL-13B
