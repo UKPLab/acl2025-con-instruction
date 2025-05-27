@@ -47,13 +47,13 @@ Our implementation is evaluated across a range of target victim models. It lever
 ### Attack LLava-1.5-7b model
 
 ```
-$ python python llava_attack.py --model-path liuhaotian/llava-v1.5-7b
+$ python llava_attack.py --model-path liuhaotian/llava-v1.5-7b
 ```
 
 ### Attack LLava-1.5-13b model
 
 ```
-$ python python llava_attack.py --model-path liuhaotian/llava-v1.5-13b
+$ python llava_attack.py --model-path liuhaotian/llava-v1.5-13b
 ```
 
 ### Attack QwenVL
@@ -67,14 +67,14 @@ $ cd qwen-audio
 
 ```
 $ cd qwenvl
-$ python  qwenvl_attack.py 
+$ python qwenvl_attack.py 
 ```
 
 ### Attack InternVL-13B
 
 ```
 $ cd internvl
-$ python  internvl_attack.py  --model_type intern_7b
+$ python internvl_attack.py  --model_type intern_7b
 ```
 
 ### Attack InternVL-34B
