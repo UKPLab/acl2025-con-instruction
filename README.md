@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/github/license/UKPLab/ukp-project-template)](https://opensource.org/licenses/Apache-2.0)
 [![Python Versions](https://img.shields.io/badge/Python-3.9-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 
-This repository contains the implementation of Con Instruction, introduced in the ACL 2025 paper: [Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities](https://arxiv.org/abs/). The code is released under an **Apache 2.0** license.
+This repository contains the implementation of Con Instruction, introduced in the ACL 2025 paper: [Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities](https://openreview.net/forum?id=Xl8ItHKUhJ). The code is released under an **Apache 2.0** license.
 
 Contact person: [Jiahui Geng](mailto:jangandlf365@gmail.com) 
 
@@ -102,12 +102,13 @@ $ python eval.py
 ## Citation
 
 ```bibtex 
-@article{jiahui2025con,
+@inproceedings{geng2025coninstruction,
   title={Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities},
   author={Geng, Jiahui and Tran, Thy Thy and Nakov, Preslav and Gurevych, Iryna},
-  journal={arXiv preprint arXiv:},
+  booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
   year={2025},
-  url={}
+  publisher = "Association for Computational Linguistics",
+  url={https://openreview.net/forum?id=Xl8ItHKUhJ}
 }
 ```
 
