@@ -32,6 +32,7 @@ $ conda activate coninstruction
 $ pip install --upgrade pip
 $ pip install -e .
 $ pip install -r requirements.txt
+$ pip install flash-attn --no-build-isolation
 ```
 
 
@@ -98,8 +99,6 @@ $ python eval.py
 
 ## Citation
 
-If you find this work relevant to your research or use the 5Pils-OOC dataset or this code in your work, please cite our paper as follows:
-
 ```bibtex 
 @article{jiahui2025con,
   title={Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities},
@@ -109,8 +108,6 @@ If you find this work relevant to your research or use the 5Pils-OOC dataset or 
   url={}
 }
 ```
-
-For 5Pils-OOC, please also cite in the ACL anthology format:
 
 
 
