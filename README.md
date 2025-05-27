@@ -38,6 +38,8 @@ $ pip install flash-attn --no-build-isolation
 
 ## Usage 
 
+Our implementation is evaluated across a range of target victim models. It leverages multiple distance functions to ensure that adversarial examples remain close to the target textual instructions in the embedding space. To further enhance the effectiveness of the attack, we employ various helper texts. Moreover, the attack's impact can be further amplified by retaining a subset of the final tokens as direct textual input to the model during inference.
+
 <p align="center">
   <img width="75%" src="assets/illustration.png" alt="header" />
 </p>
