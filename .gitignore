@@ -27,6 +27,7 @@ share/python-wheels/
 *.egg
 MANIFEST
 acl2025-con-instruction-bak/
+dataset-bak
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
