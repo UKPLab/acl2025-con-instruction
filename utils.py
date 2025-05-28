@@ -22,18 +22,18 @@ def get_target_data(dataset, mode=None):
         csv_file = os.path.join("dataset", "advbench", "harmful_behaviors.csv")
         data = pd.read_csv(csv_file)["goal"].to_list()
 
-    elif dataset == "safebench_tiny":
-        csv_file = os.path.join("dataset", "safebench", "question", "SafeBench-Tiny.csv")
-        images = os.path.join("dataset", "safebench", "question", "")
-        data = pd.read_csv(csv_file)["question"].to_list()
-
-    elif dataset == "mm-safebench":
-        csv_file = os.path.join("dataset", "mm-safebench", "samples.csv")
-        data = pd.read_csv(csv_file)["content"].to_list()
-
-    elif dataset == "xstest":
-        csv_file = os.path.join("dataset", "xstest", "xstest_v2_prompts.csv")
-        data = pd.read_csv(csv_file)["prompt"].to_list()
+    # elif dataset == "safebench_tiny":
+    #     csv_file = os.path.join("dataset", "safebench", "question", "SafeBench-Tiny.csv")
+    #     images = os.path.join("dataset", "safebench", "question", "")
+    #     data = pd.read_csv(csv_file)["question"].to_list()
+    #
+    # elif dataset == "mm-safebench":
+    #     csv_file = os.path.join("dataset", "mm-safebench", "samples.csv")
+    #     data = pd.read_csv(csv_file)["content"].to_list()
+    #
+    # elif dataset == "xstest":
+    #     csv_file = os.path.join("dataset", "xstest", "xstest_v2_prompts.csv")
+    #     data = pd.read_csv(csv_file)["prompt"].to_list()
 
 
     elif "safebench" in dataset:

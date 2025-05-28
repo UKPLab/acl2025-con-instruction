@@ -1,0 +1,15 @@
+site_name: acl2025_con_instruction
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocstrings:
+      project_name: acl2025_con_instruction
+      handlers:
+        python:
+          options:
+            docstring_style: numpy

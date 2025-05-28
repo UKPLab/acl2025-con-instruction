@@ -9,7 +9,7 @@ It includes:
 - 🧪 Testing structure using [pytest](https://docs.pytest.org/en/latest/);
 - ✅ Code linting using [pylint](https://pypi.org/project/pylint/);
 - 🎯 Entry points to execute your program using `python -m <coninstruction>` with basic CLI argument parsing;
-- 🔄 Continuous integration using [Github Actions](https://github.com/jiahuigeng/ConInstruction/actions) with jobs to check, lint and test your project;
+- 🔄 Continuous integration using [Github Actions](https://github.com/UKPLab/acl2025-con-instruction/actions) with jobs to check, lint and test your project;
 - 🌐 An out-of-the-box project page created automatically for your project.
 
 Are there any changes you'd like to request? Feel free to fork and open a pull request!
@@ -85,7 +85,7 @@ This file lists all the requirements for testing and development. Use it to sepa
 
 ### What is the `.github` folder?
 
-It contains [GitHub Actions](https://docs.github.com/en/actions) that are executed automatically when pushing your code. You can see results for your repository [here](https://github.com/jiahuigeng/ConInstruction/actions).
+It contains [GitHub Actions](https://docs.github.com/en/actions) that are executed automatically when pushing your code. You can see results for your repository [here](https://github.com/UKPLab/acl2025-con-instruction/actions).
 
 ### What does the linter workflow do?
 

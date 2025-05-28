@@ -44,6 +44,45 @@ Our implementation is evaluated across a range of target victim models. It lever
   <img width="75%" src="assets/illustration.png" alt="header" />
 </p>
 
+<p align="center">
+
+| Model         | Link                                                                           |
+|---------------|--------------------------------------------------------------------------------|
+| LLaVA-1.5-7b  | [Model Link](https://huggingface.co/liuhaotian/llava-v1.5-7b)                  |
+| LLaVA-1.5-13b | [Model Link](https://huggingface.co/liuhaotian/llava-v1.5-13b)                 |
+| Qwen-Audio    | [Model Link](https://huggingface.co/Qwen/Qwen-Audio-Chat)                      |
+| QwenVL        | [Model Link](https://huggingface.co/Qwen/Qwen-VL-Chat)                         |
+| InternVL-13b  | [Model Link](https://huggingface.co/OpenGVLab/InternVL-Chat-ViT-6B-Vicuna-13B) |
+| InternVL-34b  | [Model Link](https://huggingface.co/OpenGVLab/InternVL-Chat-V1-2)                                                                 |
+
+
+</p>
+
+### Dataset Download
+<p align="center">
+
+| Dataset   | Link                                                               |
+|-----------|--------------------------------------------------------------------|
+| SafeBench | [GitHub Link](https://github.com/ThuCCSLab/FigStep/tree/main/data) |
+| AdvBench  | [GitHub Link](https://github.com/llm-attacks/llm-attacks/tree/main/data/advbench)                                                    |
+
+</p>
+
+
+## dataset
+
+One needs to first download the data for these experiments and put that within the dataset folder. The directory has the following structure:
+
+- **advbench**
+  - `harmful_behaviors.csv`
+  - `harmful_strings.csv`
+
+- **safebench**
+  - **question**
+    - `safebench.csv`
+    - `SafeBench-Tiny.csv`
+
+
 ### Attack LLava-1.5-7b model
 
 ```
