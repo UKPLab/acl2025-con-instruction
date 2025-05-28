@@ -69,7 +69,7 @@ Our implementation is evaluated across a range of target victim models. It lever
 </p>
 
 
-## dataset
+## Dataset Preparation
 
 One needs to first download the data for these experiments and put that within the dataset folder. The directory has the following structure:
 
