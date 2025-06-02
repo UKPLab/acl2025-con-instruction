@@ -67,8 +67,8 @@
 
                   <div class="is-size-5 publication-authors">
                     <span class="author-block">
-                      <sup>1</sup>Mohamed bin Zayed University of Artificial Intelligence&emsp;
-                      <sup>2</sup>UKP Lab, Technical University of Darmstadt &emsp;
+                      <sup>1</sup>MBZUAI&emsp;
+                      <sup>2</sup>UKP Lab, TU Darmstadt &emsp;
                     </span>
                   </div>
             
@@ -113,12 +113,12 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <h2 class="title is-3 has-text-centered">What are misleading visualizations?</h2>
+      <h2 class="title is-3 has-text-centered">What is a Con Instruction🕴️?</h2>
       <h2 class="subtitle has-text-justified">
-        Illustration of Con Instruction, a "con🕴️" instruction embedded in non-textual inputs (images or audio) that can quietly steer the model's behaviour.
+        A "con🕴️" instruction embedded in non-textual inputs (images or audio) that can quietly steer the model's behaviour.
         We optimize such "con" instruction (an image in this figure) by making it close to the target textual instruction in the joint embedding space. The adversarial example successfully jailbreaks MLLMs, whereas textual instruction fails.
       </h2>
-      <img src="assets/intro.png" height="60%"/>
+      <img src="assets/intro.png" width="50%"/>
       <h2 class="hero-body has-text-centered">
         Illustration of Con Instruction
       </h2>
@@ -151,7 +151,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-five-sixths">
         <h2 class="title is-3">Overview of Con Instruction</h2>
-        <img src="assets/illustration.png" width="70%"/>
+        <img src="assets/illustration.png" width="80%"/>
         <h2 class="content has-text-justified">
           Overview of Con Instruction. In the first stage, adversarial samples are iteratively optimized to align visual token embeddings with text token embeddings, embedding malicious intent into images or audio. In the second stage, these adversarial samples, paired with benign text inputs such as empty strings, trigger a successful jailbreak while evading detection.
         </h2>
@@ -167,13 +167,13 @@
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>@inproceedings{geng2025coninstruction,
-              title={Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities},
-              author={Geng, Jiahui and Tran, Thy Thy and Nakov, Preslav and Gurevych, Iryna},
-              booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
-              year={2025},
-              publisher = "Association for Computational Linguistics",
-              url={https://openreview.net/forum?id=Xl8ItHKUhJ}
-            }
+          title={Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities},
+          author={Geng, Jiahui and Tran, Thy Thy and Nakov, Preslav and Gurevych, Iryna},
+          booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+          year={2025},
+          publisher = "Association for Computational Linguistics",
+          url={https://openreview.net/forum?id=Xl8ItHKUhJ}
+        }
         </code></pre>
     </div>
 </section>
